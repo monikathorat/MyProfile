@@ -1,50 +1,82 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Internal CSS</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<head>
+  <title>Internal CSS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sarala&display=swap" rel="stylesheet">
+  <style>
+    #objective {
+      color: darkgreen;
+      border: 2px solid black;
+      text-align: center;
+      font-family: "Sofia", cursive;
+      padding: 20px;
+      margin: 10px;
+    }
 
-    <style>
-        #objective{
-            color:darkgreen;
-            font-family: 'Sofia',cursive;
-        }
-        .careerObjective{
-          color: #e67e22;
-          font-size: x-large;
-          text-transform: uppercase;
-          font-weight: bolder;
-          text-align: center;
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        h2,p{
-          color: rgb(67, 50, 84);
-        }
-    </style>
-  </head>
+    .careerObjective {
+      color: #e67e22;
+      background-color: lightcyan;
+      font-size: x-large;
+      text-transform: uppercase;
+      font-weight: bolder;
+      text-align: left;
+      padding-left: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 
-  <body>
-    <h2 id="objective">Career Objectives</h2>
-    <hr />
-    <p class="careerObjective">
-      <strong> Seeking </strong> a <b> challenging</b> and
-      <u> rewarding career </u> in a reputed organization where my
-      <mark> technical skills </mark> would make &nbsp; &nbsp; &nbsp; a positive
-      contribution to the organization <br />
-      and <small>guide me </small> in building a rewarding career at the same
-      time enhancing my knowledge of <i> industry wide processes. </i>
-    </p>
+    h2,
+    p {
+      color: rgb(67, 50, 84);
+      text-align: center;
+      font-family:'Josefin Sans', sans-serif; 
+    }
+    h2{
+      border: 2px solid black;
+      padding: 10px 20px 10px 20px;
+      margin:10px 20px 10px 20px ;
 
-    <hr />
-    <h2>Professional Summary</h2>
-    <p>
-      &nbsp; &nbsp; &nbsp; &nbsp; Experience in using Chrome Developer Tool for
-      debugging and Troubleshooting the code <br />
-      &nbsp; &nbsp; &nbsp; &nbsp; Knowledge of NodeJS <br />
-      &nbsp; &nbsp; &nbsp; &nbsp; Ability to work with people at all levels in
-      the program
-    </p>
-  </body>
+    }
+    li{
+      color:royalblue;
+      font-family:'Sarala', sans-serif; 
+      background-color: lightgrey;
+      
+
+      }
+  </style>
+</head>
+
+<body>
+  <h2 id="objective">Career Objectives</h2>
+  
+  <p class="careerObjective">
+    <strong> Seeking </strong> a <b> challenging</b> and
+    <u> rewarding career </u> in a reputed organization where my
+    <mark> technical skills </mark> would make &nbsp; &nbsp; &nbsp; a positive
+    contribution to the organization <br />
+    and <small>guide me </small> in building a rewarding career at the same
+    time enhancing my knowledge of <i> industry wide processes. </i>
+  </p>
+
+  
+  <h2>Professional Summary</h2>
+  <p>
+  <ul>
+    <li>Experience in using Chrome Developer Tool for
+      debugging and Troubleshooting the code</li>
+    <li> Knowledge of NodeJS</li>
+    <li> Ability to work with people at all levels in
+      the program</li>
+  </ul>
+  </p>
+</body>
+
 </html>
