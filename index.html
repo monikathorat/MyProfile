@@ -6,65 +6,102 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        font-family: "Josefin Sans", sans-serif;
+      }
       header {
         color: darkred;
-        background-color: bisque;
+        margin-top: 10px;
       }
-      span {
+      .details,
+      .sections,
+      .icons {
         margin: 20px;
+      }
+      .details {
+        background-color: antiquewhite;
+      }
+      span i,
+      .icons {
+        color: darkorchid;
+        border-radius: 5px;
+      }
+      iframe,
+      #followme {
+        margin-left: 10px;
       }
     </style>
   </head>
   <body>
     <header>
-      <span><i class="fa fa-user" aria-hidden="true"></i> Monika Thorat</span>
-      <span
+      <span class="details"
+        ><i class="fa fa-user" aria-hidden="true"></i> Monika Thorat</span
+      >
+      <span class="details"
         ><i class="fa fa-phone-square" aria-hidden="true"></i> 7620 7842
         32</span
       >
-      <span
+      <span class="details"
         ><i class="fa fa-envelope" aria-hidden="true"></i>
         monikathorat0019@gmail.com</span
       >
     </header>
     <br />
     <nav>
-      <span><a href="home.html" target="myFrame">HOME</a></span>
-      <span
+      <span class="sections"
+        ><a href="home.html" target="myFrame">HOME</a></span
+      >
+      <span class="sections"
         ><a href="techStack.html" target="myFrame">TECHNOLOGY STACK</a></span
       >
-      <span><a href="education.html" target="myFrame">EDUCATION</a></span>
-      <span><a href="projectDetails.html" target="myFrame">PROJECT</a></span>
-      <span><a href="hobbies.html" target="myFrame">HOBBIES</a></span>
-      <span><a href="personal.html" target="myFrame">PERSONAL</a></span>
-      <span><a href="contactUs.html" target="myFrame">CONTACTUS</a></span>
+      <span class="sections"
+        ><a href="education.html" target="myFrame">EDUCATION</a></span
+      >
+      <span class="sections"
+        ><a href="projectDetails.html" target="myFrame">PROJECT</a></span
+      >
+      <span class="sections"
+        ><a href="hobbies.html" target="myFrame">HOBBIES</a></span
+      >
+      <span class="sections"
+        ><a href="personal.html" target="myFrame">PERSONAL</a></span
+      >
+      <span class="sections"
+        ><a href="contactUs.html" target="myFrame">CONTACT US</a></span
+      >
     </nav>
 
     <br />
     <iframe
       width="900px"
-      height="500px"
+      height="550px"
       name="myFrame"
       src="home.html"
     ></iframe>
-    <br /><br />
+    <br />
 
     <footer>
-      <span><strong>Follow me</strong></span>
-      <span
+      <span id="followme"><strong>Follow me</strong></span>
+      <span class="icons"
         ><a href="https://www.linkedin.com/login">
           <i class="fa fa-linkedin-square" aria-hidden="true"></i></a
       ></span>
-      <span
+      <span class="icons"
         ><a href="https://www.google.co.in/"
           ><i class="fa fa-google" aria-hidden="true"></i></a
       ></span>
-      <span
+      <span class="icons"
         ><a href="https://www.instagram.com/accounts/login/"
           ><i class="fa fa-instagram" aria-hidden="true"></i></a
       ></span>
-      <span
+      <span class="icons"
         ><a href="https://www.facebook.com/login/"
           ><i class="fa fa-facebook-official" aria-hidden="true"></i></a
       ></span>
